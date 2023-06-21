@@ -7,8 +7,16 @@
 }
 
 body {
-    background-color: rgb(28, 61, 76);
     overflow-x: hidden;
+}
+
+.vector {
+    background-color: rgb(28, 61, 76);
+    
+}
+
+.software {
+    background-color: rgb(46, 1, 52);
 }
 
 .bg_1 {
@@ -120,7 +128,7 @@ h1 {
 /* Benefits of Vector Graphics */
 .main-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 80vh;
     width: 90vw;
@@ -128,7 +136,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.325);
 }
 
-.image-container {
+.index-image-container {
     margin: 80px;
     display: flex;
     flex-direction: column;
@@ -137,12 +145,12 @@ h1 {
     /* background-color: brown; */
 }
 
-.image-container h1 {
+.index-image-container h1 {
     color: rgb(220, 244, 254);
     text-align: center;
 }
 
-.image-container img {
+.index-image-container img {
     height: 400px;
     width: 350px;
     border-radius: 125px;
@@ -157,7 +165,7 @@ h1 {
     font-size: 20px;
 }
 
-.image-container img {
+.index-image-container img {
     margin-top: 20px;
 }
 
@@ -172,7 +180,9 @@ span {
     background: url("../images/sw_bg.jpg") center no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .software-list {
@@ -180,4 +190,102 @@ span {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+}
+
+.put-margin {
+    margin-top: 50px;
+}
+
+.put-margin p {
+    color: rgb(189, 77, 53);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.software-image-container {
+    display: flex;
+    background-color: rgba(40, 1, 44, 0.589);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.software-image img{
+    height: 300px;
+    width: 300px;
+}
+
+.software-image-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.software-image-text-container p {
+    color: rgb(193, 77, 70);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.AI-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AI-container p {
+    color: rgb(250, 183, 88);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.AI-image-text-container {
+    margin-top: 20px;
+}
+
+.AI-image-background img {
+    height: 600px;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.AI-container .AI-text-content {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+.AI-image-text-content {
+    width: 80vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background: url("../images/ai-image-content-v1.png") center no-repeat;
+    background-size: cover;
+    margin-bottom: 300px;
+}
+
+.AI-image-container img {
+    height: 400px;
+    width: 350px;
+    border-radius: 125px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.AI-image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(6, 16, 34, 0.832);
+    border-radius: 20px;
 }
