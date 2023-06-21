@@ -16,7 +16,7 @@ body {
 }
 
 .software {
-    background-color: rgb(46, 1, 52);
+    background-color: rgb(42, 5, 48);
 }
 
 .bg_1 {
@@ -122,6 +122,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: inset -10px -10px 10px 20px rgb(28, 61, 76);
 
 }
 
@@ -228,15 +229,34 @@ span {
     font-weight: bold;
 }
 
+.center-text div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+}
+
+.center-text div p {
+    font-size: 50px;
+    color: rgb(193, 77, 70);
+    font-weight: 400;
+    text-align: center;
+}
+
 .AI-container {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background: url("../images/bg-desktop.jpg") center no-repeat;
+    background-size: cover;
+    height: 450px;
+    box-shadow: inset -10px -10px 10px 20px rgba(40, 1, 44);
 }
 
 .AI-container p {
-    color: rgb(250, 183, 88);
+    color: rgb(238, 99, 91);
     font-size: 20px;
     font-weight: bold;
 }
@@ -253,26 +273,30 @@ span {
 
 .AI-container .AI-text-content {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
     margin: 20px;
 }
 
 .AI-image-text-content {
-    width: 80vw;
-    height: 500px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    background-color: rgba(40, 1, 44, 0.836);
     border-radius: 20px;
-    background: url("../images/ai-image-content-v1.png") center no-repeat;
-    background-size: cover;
-    margin-bottom: 300px;
+}
+
+.AI-image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
 
 .AI-image-container img {
-    height: 400px;
-    width: 350px;
-    border-radius: 125px;
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -286,6 +310,165 @@ span {
     width: 50vw;
     height: 300px;
     text-align: center;
-    background-color: rgba(6, 16, 34, 0.832);
+    
+}
+
+.AI-tutorial-download {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AI-tutorial-download p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(193, 77, 70);
+}
+
+.put-border-radius iframe{
     border-radius: 20px;
+}
+
+.AI-download {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AI-download a{
+    text-decoration: none;
+    color: rgb(42, 5, 48);
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(193, 77, 70);;
+}
+
+
+
+
+
+
+.CD-container p {
+    color: rgb(238, 99, 91);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CD-image-text-container {
+    margin-top: 20px;
+}
+
+.CD-image-background img {
+    height: 600px;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.CD-container .AI-text-content {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.CD-image-text-content {
+    display: flex;
+    align-items: center;
+    background-color: rgba(40, 1, 44, 0.836);
+    border-radius: 20px;
+}
+
+.CD-image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.CD-image-container img {
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.CD-image-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.CD-tutorial-download {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CD-tutorial-download p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(193, 77, 70);
+}
+
+
+.CD-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/table-sp.jpg") center no-repeat;
+    background-size: cover;
+    height: 450px;
+    box-shadow: inset -10px -10px 10px 20px rgba(40, 1, 44);
+}
+
+.CD-image-text-content {
+    display: flex;
+    align-items: center;
+    background-color: rgba(40, 1, 44, 0.836);
+    border-radius: 20px;
+}
+
+.CD-image-text-container {
+    margin-top: 20px;
+}
+/* 
+.CD-image-text-container .AI-text-content {
+
+} */
+
+.CD-download {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CD-download a{
+    text-decoration: none;
+    color: rgb(42, 5, 48);
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(193, 77, 70);;
 }
