@@ -89,7 +89,7 @@ body {
 
 .navigation ul li {
     list-style: none;
-    margin-right: 60px;
+    margin-right: 90px;
 }
 
 /* .navigation ul li */
@@ -101,11 +101,10 @@ body {
 }
 
 .center {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: black;    */
 }
 
 .title {
@@ -700,6 +699,8 @@ span {
     margin-bottom: 100vh;
 }
 
+/* Contact Us Section */
+
 .contact-us {
     background: linear-gradient(to bottom, rgb(36, 69, 84), rgb(181, 214, 229))no-repeat;
     background-size: cover;
@@ -805,4 +806,54 @@ span {
     color: rgb(42, 67, 78);
     font-size: large;
     font-weight: bold;
+}
+
+/* About Us Section */
+.about-us {
+    background: linear-gradient(to bottom, rgb(36, 69, 84), rgb(181, 214, 229))no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about-us ul li a {
+    color: rgb(176, 209, 224);
+}
+
+.about-us-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-content {
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-us-my-profile img {
+    background-size: contain;
+    width: 80%;
+    border-radius: 25px;
+    
+}
+
+.about-us-text {
+    margin-right: 40px;
+}
+
+.about-us-text h1 {
+    color: rgb(19, 35, 42);
+}
+
+.about-us-text p {
+    margin-top: 50px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.about-us-my-profile img {
+    width: 20vw;
 }
