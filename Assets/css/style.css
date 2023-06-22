@@ -10,13 +10,12 @@ body {
     overflow-x: hidden;
 }
 
+/* background color for every page */
+
+/* Home Page */
 .vector {
     background-color: rgb(28, 61, 76);
     
-}
-
-.software {
-    background-color: rgb(42, 5, 48);
 }
 
 .bg_1 {
@@ -28,6 +27,39 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/* Software Page */
+.software {
+    background-color: rgb(42, 5, 48);
+}
+
+.bg_2 {
+    background: url("../images/sw_bg.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gallery Page */
+/* 
+.gallery {
+    /* overflow: hidden; */
+
+.gallery {
+    background:linear-gradient(to bottom, rgb(189, 171, 206), rgb(80, 62, 80))
+}
+
+.bg_3 {
+    background: url("../images/AI-bg.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .logo {
     background-size: cover;
@@ -174,14 +206,7 @@ span {
 
 
 /* Software Content */
-.background-image {
-    background: url("../images/sw_bg.jpg") center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .software-list {
     color: rgb(186, 80, 58);
@@ -508,7 +533,173 @@ span {
     width: 90px;
     text-align: center;
     border-radius: 5px;
-    background-color: rgb(193, 77, 70);;
+    background-color: rgb(193, 77, 70);
 }
 
 /* End of Corel Draw - Software HTML */
+
+
+/* Start of Gallery Section */
+
+.gallery ul li a {
+    color: rgb(185, 147, 182);
+}
+
+/* .slider img {
+    height: 100px;
+    width: 300px;
+    background-size: cover;
+} */
+
+.slide-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16/10;
+    overflow-x:  auto;
+}
+
+.gallery-slider {
+    padding: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background:linear-gradient(to bottom, rgb(80, 62, 80), rgb(189, 171, 206))
+}
+
+.image-slider {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    bottom: 0;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .7s;
+}
+
+.slides-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+.slides-div img {
+    position: relative;
+    height: 500px;
+    width: 900px;
+    transition: .5s;
+    filter: saturate(10%);
+}
+
+.button {
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    transition: .5s;
+    background-color: rgb(0, 0, 0, .4);
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0, .2);
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6 {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7  {
+    height: 550px;
+    width: 1000px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider {
+    left: 193%;
+}
+
+#slider-span2:target ~ .image-slider {
+    left: 125%;
+}
+
+#slider-span3:target ~ .image-slider {
+    left: 70%;
+}
+
+#slider-span4:target ~ .image-slider {
+    left: 0%;
+}
+
+#slider-span5:target ~ .image-slider {
+    left: -70%;
+}
+
+#slider-span6:target ~ .image-slider {
+    left: -125%;
+}
+
+#slider-span7:target ~ .image-slider {
+    left: -193%;
+}
+
+.gallery-images {
+    margin-bottom: 100vh;
+}
+
+.other-source-vector {
+
+}
