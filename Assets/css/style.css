@@ -304,7 +304,7 @@ span {
     border-radius: 20px;
 }
 
-.AI-container .AI-text-content {
+.AI-container .AI-text-content, .CD-container .CD-text-content {
     font-size: 18px;
     font-weight: 400;
     margin: 20px;
@@ -316,6 +316,7 @@ span {
     background-color: rgba(40, 1, 44, 0.836);
     border-radius: 20px;
 }
+
 
 .AI-image-container {
     display: flex;
@@ -348,7 +349,7 @@ span {
 
 .AI-tutorial-download {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -397,7 +398,7 @@ span {
 .AI-CD-testimonies-text-image {
     height: 400px;
     width: 350px;
-    background-color: rgba(85, 8, 97, 0.807);
+    background-color: rgba(85, 8, 97, 0.44);
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -425,7 +426,7 @@ span {
 }
 
 .AI-CD-testimonies-text h3, .AI-CD-testimonies-text h4, .AI-CD-testimonies-text p {
-    color: rgb(193, 77, 70);;
+    color: rgb(193, 77, 70);
 }
 /* End of testimonies */
 
@@ -453,6 +454,10 @@ span {
     font-weight: 400;
     margin: 20px;
 }
+
+/* .CD-image-text-content p {
+    
+} */
 
 .CD-image-text-content {
     display: flex;
@@ -492,7 +497,7 @@ span {
 
 .CD-tutorial-download {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -521,13 +526,10 @@ span {
 .CD-image-text-content {
     display: flex;
     align-items: center;
-    background-color: rgba(40, 1, 44, 0.836);
     border-radius: 20px;
-}
-
-.CD-image-text-container {
     margin-top: 20px;
 }
+   
 
 .CD-download {
     margin-top: 50px;
